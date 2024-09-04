@@ -1,0 +1,39 @@
+body{
+    background: rgb(8, 144, 110);
+    font-family: sans-serif;
+}
+#loancal {
+width: 345px;
+height: 420px;
+background-color:white;
+color: #fff;
+padding: 10px;
+margin: 100px auto;
+}
+h1 {
+font-size:30px;
+text-align: center;
+color: rgb(9, 95, 172);
+margin-bottom: 35px;
+}
+.input{
+margin-left: 40px;
+margin-right: 40px;
+}
+p{
+color: rgb(17, 103, 170);
+font-size: 17px;
+}
+input{
+width: 100%;
+height: 33px;
+}
+
+#interest_rate {
+margin-left: 2px;
+}
+h2{
+text-align: center;
+color: rgb(6, 111, 139);
+margin-top: 35px;
+}
