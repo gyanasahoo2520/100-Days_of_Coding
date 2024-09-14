@@ -1,0 +1,16 @@
+  body {
+  padding: 20px;
+  text-align: center;
+  margin: 100px auto;
+  }
+
+  div {
+  border: 5px solid #004853;
+  display:inline;
+  padding: 5px;
+  color: #004853;
+  font-family: Verdana, sans-serif, Arial;
+  font-size: 90px;
+  font-weight: bold;
+  text-decoration: none;
+}
