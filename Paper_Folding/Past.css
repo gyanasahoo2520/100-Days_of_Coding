@@ -1,0 +1,45 @@
+  body {
+margin: 0;
+padding: 0;
+background: rgb(23, 121, 196);
+}
+.folded {
+margin: 0;
+padding: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 640px;
+height: 360px;
+display: flex;  
+}
+.folded-itm {
+list-style: none;
+width: 25%;
+background: url(http://images.vfl.ru/ii/1507205711/b5893f70/18869424.jpg);
+background-size: cover;
+height: 100%;
+transition: 0.5s;
+}
+.folded:hover .folded-itm:nth-child(odd) {
+transform: skewY(15deg);
+box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+.folded:hover .folded-itm:nth-child(even) {
+transform: skewY(-15deg);
+box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+
+.folded .folded-itm:nth-child(1) {
+background-position: 0;
+}
+.folded .folded-itm:nth-child(2) {
+background-position: -160px;
+}
+.folded .folded-itm:nth-child(3) {
+background-position: -320px;
+}
+.folded .folded-itm:nth-child(4) {
+background-position: -480px;
+}
