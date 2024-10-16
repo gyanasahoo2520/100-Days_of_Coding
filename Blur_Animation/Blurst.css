@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url('https://assets.entrepreneur.com/content/3x2/2000/20150429160658-website-traffic.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  animation: loading 8s;
+}
+.container{
+  z-index: 10;
+}
+.container > h1{
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+}
+h1 span{
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+}
+@keyframes loading{
+  from{
+    filter: blur(40px);
+  }
+  to{
+    filter: blur(0px);
+  }
+}
